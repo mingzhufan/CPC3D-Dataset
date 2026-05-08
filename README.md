@@ -1,6 +1,6 @@
 # CPC3D Dataset
 
-CPC3D is a controllable pose-clothing 3D body dataset for studying body shape estimation and anthropometric measurement under clothing from 3D scans.
+CPC3D is a controllable 3D body dataset for studying pose and clothing effects on body shape estimation and anthropometric measurement under clothing from 3D scans.
 
 The dataset is designed to support controlled analysis of how human posture and garment type affect body shape estimation accuracy, regional error distribution, and measurement reliability.
 
@@ -16,16 +16,16 @@ The dataset covers:
 
 For each pose-clothing combination, the same body shape can be compared across different poses and clothing conditions. This design supports analysis of pose effects, clothing effects, and their interaction.
 
-In addition to the synthetic dataset, CPC3D includes a small-scale real-scan subset with manual measurements. This subset supports measurement analysis by comparing measurements extracted from predicted SMPL bodies with manual references.
+In addition to the synthetic dataset, CPC3D includes a real-scan subset with manual measurements. This subset supports measurement analysis by comparing measurements extracted from predicted SMPL bodies with manual references.
 
 ## What Will Be Released
 
-This repository will provide the following resources upon paper acceptance.
+This repository currently provides the release plan. The full dataset and code will be made publicly available upon paper acceptance.
 
 ### 1. Synthetic CPC3D Dataset
 
 - Dressed partial point clouds
-- Corresponding SMPL body ground truth
+- Corresponding undressed SMPL body ground truth
 - Pose labels for P1-P10
 - Clothing labels for the 8 garment types
 - Training and testing sample lists used in the paper
@@ -33,8 +33,8 @@ This repository will provide the following resources upon paper acceptance.
 
 ### 2. Real-Scan Subset
 
-- Small-scale real clothed scan data
-- Ten-pose scans for each real subject
+- Real scan of clothed subjects
+- Ten-pose scans for each subject
 - Manual measurement references
 - Subject and scan information, including clothing type and scanning posture
 
@@ -68,6 +68,6 @@ The citation will be updated after publication.
 
 ## Contact
 
-For questions about the dataset, please contact the authors through the corresponding paper.
+For questions about the dataset, please contact the corresponding author listed in the paper.
 
 Thank you for your interest in CPC3D.
