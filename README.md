@@ -33,7 +33,7 @@ This repository currently provides the release plan. The full dataset and code w
 
 ### 2. Real-Scan Subset
 
-- Real scan of clothed subjects
+- Real scans of clothed subjects
 - Ten-pose scans for each subject
 - Manual measurement references
 - Subject and scan information, including clothing type and scanning posture
