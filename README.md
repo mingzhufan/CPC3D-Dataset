@@ -1,6 +1,6 @@
 # CPC3D Dataset
 
-CPC3D is a controllable pose--clothing 3D body dataset for studying body shape estimation and anthropometric measurement under clothing from 3D scans.
+CPC3D is a controllable pose-clothing 3D body dataset for studying body shape estimation and anthropometric measurement under clothing from 3D scans.
 
 The dataset is designed to support controlled analysis of how human posture and garment type affect body shape estimation accuracy, regional error distribution, and measurement reliability.
 
@@ -12,9 +12,9 @@ The dataset covers:
 
 - 8 garment types
 - 10 representative human poses
-- 80 pose--clothing combinations
+- 80 pose-clothing combinations
 
-For each pose--clothing combination, the same body shape can be compared across different poses and clothing conditions. This design supports analysis of pose effects, clothing effects, and their interaction.
+For each pose-clothing combination, the same body shape can be compared across different poses and clothing conditions. This design supports analysis of pose effects, clothing effects, and their interaction.
 
 In addition to the synthetic dataset, CPC3D includes a small-scale real-scan subset with manual measurements. This subset supports measurement analysis by comparing measurements extracted from predicted SMPL bodies with manual references.
 
@@ -26,7 +26,7 @@ This repository will provide the following resources upon paper acceptance.
 
 - Dressed partial point clouds
 - Corresponding SMPL body ground truth
-- Pose labels for P1--P10
+- Pose labels for P1-P10
 - Clothing labels for the 8 garment types
 - Training and testing sample lists used in the paper
 - Sample information, including pose ID, clothing type, gender, and body-shape ID
