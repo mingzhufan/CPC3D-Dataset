@@ -31,19 +31,19 @@ This repository will provide the following resources upon paper acceptance.
 - Training and testing sample lists used in the paper
 - Sample information, including pose ID, clothing type, gender, and body-shape ID
 
-### 2. Measurement Definitions
-
-- Predefined girth measurement paths on the template SMPL body
-- Predefined distance measurement paths on the template SMPL body
-- Scripts for transferring measurement paths to predicted SMPL bodies
-- Scripts for extracting anthropometric measurements
-
-### 3. Real-Scan Subset
+### 2. Real-Scan Subset
 
 - Small-scale real clothed scan data
 - Ten-pose scans for each real subject
 - Manual measurement references
 - Subject and scan information, including clothing type and scanning posture
+
+### 3. Measurement Definitions
+
+- Predefined girth measurement paths on the template SMPL body
+- Predefined distance measurement paths on the template SMPL body
+- Scripts for transferring measurement paths to predicted SMPL bodies
+- Scripts for extracting anthropometric measurements
 
 ### 4. Evaluation and Analysis Code
 
