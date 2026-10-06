@@ -58,7 +58,7 @@ This repository currently provides the release plan. The full dataset and code w
 
 The CPC3D dataset, real-scan subset, measurement definitions, and associated analysis code will be publicly released upon acceptance of the corresponding paper.
 
-Paper: *CPC3D: A 4-Million-Sample Benchmark Dataset for Analyzing the Effects of Posture on Body Shape Estimation Under Clothing*
+Paper: *CPC3D: A Benchmark for 3D Anthropometric Measurement of Clothed Bodies Across Postures and Garment Types*
 
 More details about the dataset generation pipeline, measurement definitions, and evaluation protocol can be found in the paper.
 
